@@ -61,6 +61,7 @@
             this.BtnConfiguracion.TabIndex = 1;
             this.BtnConfiguracion.Text = "Configuracion";
             this.BtnConfiguracion.UseVisualStyleBackColor = true;
+            this.BtnConfiguracion.Click += new System.EventHandler(this.BtnConfiguracion_Click);
             // 
             // BtnCuentaCliente
             // 
@@ -73,6 +74,7 @@
             this.BtnCuentaCliente.TabIndex = 2;
             this.BtnCuentaCliente.Text = "Cuenta cliente\r\n";
             this.BtnCuentaCliente.UseVisualStyleBackColor = true;
+            this.BtnCuentaCliente.Click += new System.EventHandler(this.BtnCuentaCliente_Click);
             // 
             // BtnTarjetaCredito
             // 
@@ -85,6 +87,7 @@
             this.BtnTarjetaCredito.TabIndex = 5;
             this.BtnTarjetaCredito.Text = "Tarjeta credito";
             this.BtnTarjetaCredito.UseVisualStyleBackColor = true;
+            this.BtnTarjetaCredito.Click += new System.EventHandler(this.BtnTarjetaCredito_Click);
             // 
             // BtnServicioPublico
             // 
@@ -97,6 +100,7 @@
             this.BtnServicioPublico.TabIndex = 4;
             this.BtnServicioPublico.Text = "Servicio publico";
             this.BtnServicioPublico.UseVisualStyleBackColor = true;
+            this.BtnServicioPublico.Click += new System.EventHandler(this.BtnServicioPublico_Click);
             // 
             // BtnServicioCliente
             // 
@@ -109,6 +113,7 @@
             this.BtnServicioCliente.TabIndex = 3;
             this.BtnServicioCliente.Text = "Servicio cliente\r\n";
             this.BtnServicioCliente.UseVisualStyleBackColor = true;
+            this.BtnServicioCliente.Click += new System.EventHandler(this.BtnServicioCliente_Click);
             // 
             // Menu
             // 

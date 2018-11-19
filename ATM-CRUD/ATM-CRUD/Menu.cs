@@ -38,5 +38,35 @@ namespace ATM_CRUD
             Cliente vista = new Cliente();
             vista.Show();
         }
+
+        private void BtnConfiguracion_Click(object sender, EventArgs e)
+        {
+            Configuraciones vista = new Configuraciones();
+            vista.Show();
+        }
+
+        private void BtnCuentaCliente_Click(object sender, EventArgs e)
+        {
+            CuentaCliente vista = new CuentaCliente();
+            vista.Show();
+        }
+
+        private void BtnServicioCliente_Click(object sender, EventArgs e)
+        {
+            ServicioCliente vista = new ServicioCliente();
+            vista.Show();
+        }
+
+        private void BtnServicioPublico_Click(object sender, EventArgs e)
+        {
+            ServicioPublico vista = new ServicioPublico();
+            vista.Show();
+        }
+
+        private void BtnTarjetaCredito_Click(object sender, EventArgs e)
+        {
+            TarjetasCredito vista = new TarjetasCredito();
+            vista.Show();
+        }
     }
 }
